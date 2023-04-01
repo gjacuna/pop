@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { generateSquareSVG } from "./helpers/svg";
+import { generateSquareSVG } from "../scripts/helpers/svg";
 import { create } from "ipfs-http-client";
 import { ChatCompletionRequestMessage, Configuration, OpenAIApi } from "openai";
 import ReactMarkdown from "react-markdown";
