@@ -23,6 +23,12 @@ That's it, a quick and dirty prototype to start testing the wonders of AI and th
 
 A fun idea: use GPT to expand this project and mint an NFT of the code GPT proposed!
 
+# TODOS
+
+- Store the model and the actual API calls!
+- Handle the OpenAI API key better, so you don't have to write it down for every session
+- Add more AI models! Image generation, speech recognition, etc! And also, add different AI companies and model. There's a whole world outside of OpenAI.
+- Just make it better
 
 # Everything built with Scaffold-Eth 2!
 
