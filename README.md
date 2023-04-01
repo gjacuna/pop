@@ -1,5 +1,7 @@
 # Proof of Prompt (PoP)
 
+TODO: INTRO 2m VIDEO
+
 ![image info](./packages/nextjs/public/poppop.gif)
 
 An experiment with AI and inmutable sources of "truth".
