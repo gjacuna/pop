@@ -16,8 +16,8 @@ type PromptParameters = {
 const APIModels = ["gpt-3.5-turbo", "gpt-4"];
 
 async function saveStringsToIPFS(jsonStringToStore: string): Promise<string> {
-  const projectId = "2FijmrPPldxkGmWMip9rtQI7ny2";
-  const projectSecret = "a0929dea2b7c4a2a430b188d4c2b2e21";
+  const projectId = process.env.NEXT_PUBLIC_INFURA_PROJECT;
+  const projectSecret = process.env.NEXT_PUBLIC_INFURA_SECRET;
   const auth = "Basic " + Buffer.from(projectId + ":" + projectSecret).toString("base64");
   const ipfs = create({
     host: "ipfs.infura.io",
