@@ -1,5 +1,7 @@
 # Proof of Prompt (PoP)
 
+TODO: Add explanatory video
+
 ![image info](./packages/nextjs/public/poppop.gif)
 
 An experiment with AI and inmutable sources of "truth".
@@ -29,6 +31,9 @@ A fun idea: use GPT to expand this project and mint an NFT of the code GPT propo
 - Handle the OpenAI API key better, so you don't have to write it down for every session
 - Add more AI models! Image generation, speech recognition, etc! And also, add different AI companies and model. There's a whole world outside of OpenAI.
 - Just make it better
+
+# Reminders
+If you want to run this yourslef, you'll need an Infura (or another provider) api key to upload things to IPFS. Check out the `saveStringsToIPFS` function in the chat page.
 
 # Everything built with Scaffold-Eth 2!
 
