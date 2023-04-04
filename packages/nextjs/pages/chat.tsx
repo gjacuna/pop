@@ -172,8 +172,8 @@ const TerminalChat = () => {
               <div>
                 <small>
                   You can get a free one at{" "}
-                  <a href="https://openai.com/" target={"_blank"} rel="noreferrer">
-                    https://openai.com/
+                  <a href="https://platform.openai.com/" target={"_blank"} rel="noreferrer">
+                    https://platform.openai.com/
                   </a>
                 </small>
               </div>
